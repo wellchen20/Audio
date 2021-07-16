@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="oval" >
+
+    <!-- 高度40 -->
+    <size android:height="26dp" android:width="26dp"/>
+    <!-- 圆角弧度 20 -->
+    <corners android:radius="13dp"/>
+
+
+    <!-- 变化率 -->
+    <gradient
+        android:endColor="#ffffff"
+        android:startColor="#ffffff" />
+
+</shape>

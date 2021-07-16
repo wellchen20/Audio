@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin">
+
+
+
+    <EditText
+        android:id="@+id/display_name"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginTop="100dp"
+        android:hint="@string/string_input_display_name"
+        android:paddingStart="10dp"
+        android:paddingEnd="10dp"
+        android:textSize="14sp"
+        android:background="@drawable/edit_bg"
+        />
+
+    <EditText
+        android:id="@+id/register_external_id"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="@drawable/edit_bg"
+        android:layout_marginTop="10dp"
+        android:paddingStart="10dp"
+        android:paddingEnd="10dp"
+        android:textSize="14sp"
+        android:hint="@string/string_input_external_id"
+        />
+
+    <TextView
+        android:id="@+id/tv_oauth_login_tips"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:enabled="false"
+        android:text="TIPS: 鉴权登录接口需要传入授权token"
+        android:textSize="12sp"
+        android:visibility="gone" />
+
+    <Button
+        android:layout_marginTop="50dp"
+        android:id="@+id/connect_nemo"
+        android:layout_width="match_parent"
+        android:textAlignment="center"
+        android:layout_gravity="center_horizontal"
+        android:layout_height="wrap_content"
+        android:onClick="onLoginClick"
+        android:background="@drawable/round_corner_clicked"
+        android:textColor="@color/ainemo_white"
+        android:text="@string/string_login" />
+
+</LinearLayout>

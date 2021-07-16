@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:rokid="http:www.rokid-inc.com"
+    rokid:version="1.6.0">
+    <application
+        rokid:isSystem="false">
+        <scene
+            rokid:activity="com.mtkj.cnpc.LoginActivity"
+            rokid:appID="R9151A1B33CA4C3C8302193F51F323F1"
+            rokid:require_min_os="2.1.4" />
+    </application>
+</manifest>

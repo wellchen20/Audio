@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".HomeActivity">
+
+
+    <ImageView
+        android:contentDescription="@string/string_xy_logo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="80dp"
+        android:src="@mipmap/xylink_login_icon"/>
+
+
+    <Button
+        android:id="@+id/bt_third_party_account"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/string_login_with_third_party"
+        android:background="@drawable/round_corner_clicked"
+        android:layout_marginLeft="60dp"
+        android:layout_marginTop="200dp"
+        android:textColor="@color/ainemo_white"
+        android:layout_marginRight="60dp"/>
+
+    <Button
+        android:id="@+id/bt_xylink_account"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/string_login_with_xy_account"
+        android:background="@drawable/round_corner_clicked"
+        android:layout_marginLeft="60dp"
+        android:layout_marginTop="15dp"
+        android:textColor="@color/ainemo_white"
+        android:layout_marginRight="60dp"/>
+
+    <Button
+        android:id="@+id/bt_xylink_third_auth"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="三方鉴权登录"
+        android:background="@drawable/round_corner_clicked"
+        android:layout_marginLeft="60dp"
+        android:layout_marginTop="15dp"
+        android:textColor="@color/ainemo_white"
+        android:layout_marginRight="60dp"/>
+    <Button
+        android:id="@+id/bt_into_Intro"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="进入主界面"
+        android:background="@drawable/round_corner_clicked"
+        android:layout_marginLeft="60dp"
+        android:layout_marginTop="15dp"
+        android:textColor="@color/ainemo_white"
+        android:layout_marginRight="60dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="8dp"
+        android:gravity="center"
+        android:layout_marginTop="16dp"
+        android:layout_gravity="center_horizontal"
+        android:onClick="onSetClick"
+        android:textSize="16sp"
+        android:text="@string/string_set_app_config"/>
+
+</LinearLayout>
